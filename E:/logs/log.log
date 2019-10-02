@@ -1,0 +1,28 @@
+2019-10-02 11:35:48  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-02 11:35:48  [ main:89 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:35:49  [ main:90 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:35:49  [ main:91 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:35:49  [ main:92 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:35:49  [ main:593 ] - [ DEBUG ]  Opening JDBC Connection
+2019-10-02 11:35:50  [ main:1245 ] - [ DEBUG ]  Created connection 592688102.
+2019-10-02 11:35:50  [ main:1246 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2353b3e6]
+2019-10-02 11:35:50  [ main:1264 ] - [ DEBUG ]  ==>  Preparing: select id, country_name as countryName, country_code as countryCode from country; 
+2019-10-02 11:35:50  [ main:1369 ] - [ DEBUG ]  ==> Parameters: 
+2019-10-02 11:35:50  [ main:1458 ] - [ DEBUG ]  <==      Total: 5
+2019-10-02 11:35:50  [ main:1465 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2353b3e6]
+2019-10-02 11:35:50  [ main:1467 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2353b3e6]
+2019-10-02 11:35:50  [ main:1468 ] - [ DEBUG ]  Returned connection 592688102 to pool.
+2019-10-02 11:36:06  [ main:1 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-02 11:36:07  [ main:263 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:36:07  [ main:265 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:36:07  [ main:273 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:36:07  [ main:276 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2019-10-02 11:36:08  [ main:1121 ] - [ DEBUG ]  Opening JDBC Connection
+2019-10-02 11:36:08  [ main:2062 ] - [ DEBUG ]  Created connection 592688102.
+2019-10-02 11:36:08  [ main:2063 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2353b3e6]
+2019-10-02 11:36:08  [ main:2082 ] - [ DEBUG ]  ==>  Preparing: select id, country_name as countryName, country_code as countryCode from country; 
+2019-10-02 11:36:09  [ main:2197 ] - [ DEBUG ]  ==> Parameters: 
+2019-10-02 11:36:09  [ main:2356 ] - [ DEBUG ]  <==      Total: 5
+2019-10-02 11:36:09  [ main:2358 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2353b3e6]
+2019-10-02 11:36:09  [ main:2359 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2353b3e6]
+2019-10-02 11:36:09  [ main:2360 ] - [ DEBUG ]  Returned connection 592688102 to pool.

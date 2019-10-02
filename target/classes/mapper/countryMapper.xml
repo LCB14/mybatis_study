@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace要全局唯一，用于区分不同的mapper，一般是用对应的接口的全限定名-->
+<mapper namespace="com.lcb.mapper.CountryMapper">
+    <!--查询语句，id在同个mapper文件中也要唯一，一般是方法的名称-->
+    <select id="selectAll" resultType="com.lcb.beans.Country">
+        select
+            id,
+            country_name as countryName,
+            country_code as countryCode
+        from country;
+    </select>
+</mapper>
