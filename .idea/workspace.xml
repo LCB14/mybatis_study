@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5000540-e37f-4a80-9bf9-d3c11f3c970b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/io/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/io/Resources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569924358189</updated>
       <workItem from="1569924360080" duration="5773000" />
-      <workItem from="1569984862929" duration="4683000" />
+      <workItem from="1569984862929" duration="6020000" />
     </task>
     <servers />
   </component>
