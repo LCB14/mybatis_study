@@ -24,7 +24,7 @@ public class TestJDBC {
         try {
             connection = DriverManager
                 .getConnection("jdbc:mysql://127.0.0.1:3306/test_db?useSSL=false&characterEncoding=utf-8", "root",
-                               "li13613766084");
+                               "li123456");
             preparedStatement = connection.prepareStatement("select * from student where id = ?");
             preparedStatement.setInt(1, 1);
             resultSet = preparedStatement.executeQuery();
