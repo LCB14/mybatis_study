@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5000540-e37f-4a80-9bf9-d3c11f3c970b" name="Default Changelist" comment="">
+    <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcb/jdbc/TestJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcb/jdbc/TestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lcb/jdbc/TestJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lcb/jdbc/TestJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lcb/mybatis/CountryMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lcb/mybatis/CountryMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/countryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/binding/MapperRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/binding/MapperRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/builder/xml/XMLConfigBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/builder/xml/XMLConfigBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/cache/decorators/BlockingCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/cache/decorators/BlockingCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/cursor/defaults/DefaultCursor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/cursor/defaults/DefaultCursor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/BaseExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/BaseExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/BatchExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/BatchExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/CachingExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/CachingExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/SimpleExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/SimpleExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/loader/AbstractEnhancedDeserializationProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/loader/AbstractEnhancedDeserializationProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/loader/ResultLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/loader/ResultLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/loader/ResultLoaderMap$LoadPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/loader/ResultLoaderMap$LoadPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/io/DefaultVFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/io/DefaultVFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/ScriptRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/ScriptRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/SelectBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/SelectBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/SqlBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/SqlBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/SqlRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/jdbc/SqlRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/mapping/VendorDatabaseIdProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/mapping/VendorDatabaseIdProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/Configuration$StrictMap$Ambiguity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/Configuration$StrictMap$Ambiguity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/Configuration$StrictMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/Configuration$StrictMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/SqlSessionFactoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/SqlSessionFactoryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/SqlSessionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/SqlSessionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/type/SqlxmlTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/type/SqlxmlTypeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mybatis.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lcb/beans/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lcb/jdbc/TestJDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lcb/mapper/CountryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lcb/mybatis/CountryMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/binding/BindingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/binding/BindingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/executor/BaseExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/executor/BaseExecutorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/jdbc/PooledDataSourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/jdbc/PooledDataSourceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/jdbc/ScriptRunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/jdbc/ScriptRunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/mapping/CacheBuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/mapping/CacheBuilderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/session/SqlSessionManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/session/SqlSessionManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/batch_test/BatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/batch_test/BatchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/cache/CacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/cache/CacheTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/encoding/EncodingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/encoding/EncodingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/global_variables/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/global_variables/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/global_variables_defaults/SupportClasses$Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/global_variables_defaults/SupportClasses$Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/keygen/Jdbc3KeyGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/keygen/Jdbc3KeyGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/multiple_resultsets/MultipleResultTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/submitted/multiple_resultsets/MultipleResultTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,58 +75,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1Rb8IzgCc7ITw6hUQHuP4zEdP4g" />
+  <component name="ProjectId" id="1Sj9xHwwxsMRGBbV5oX4BJSkTwX" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.lcb.mybatis" />
-      <recent name="com.lcb.mapper" />
-      <recent name="com.lcb.jdbc" />
-      <recent name="com.lcb.beans" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/test-classes" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/test/java/resources/mapper" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,75 +110,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountryMapperTest (1)">
-    <configuration name="CountryMapperTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lcb.mybatis.CountryMapperTest" />
-      <module name="mybatis" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lcb.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountryMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lcb.mybatis.CountryMapperTest" />
-      <module name="mybatis" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lcb.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="TestJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lcb.jdbc.TestJDBC" />
+      <option name="MAIN_CLASS_NAME" value="com.lcb.jdbc.TestJDBC" />
       <module name="mybatis" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lcb.jdbc.*" />
+          <option name="PATTERN" value="com.lcb.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountryMapperTest (1)" />
-        <item itemvalue="Application.CountryMapperTest" />
         <item itemvalue="Application.TestJDBC" />
       </list>
     </recent_temporary>
@@ -153,13 +135,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5000540-e37f-4a80-9bf9-d3c11f3c970b" name="Default Changelist" comment="" />
-      <created>1569924358189</created>
+      <changelist id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="" />
+      <created>1572066382980</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569924358189</updated>
-      <workItem from="1569924360080" duration="5773000" />
-      <workItem from="1569984862929" duration="6020000" />
+      <updated>1572066382980</updated>
+      <workItem from="1572066384521" duration="5319000" />
     </task>
     <servers />
   </component>
@@ -171,9 +152,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
