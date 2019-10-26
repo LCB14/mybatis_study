@@ -1,7 +1,7 @@
 package com.lcb.mybatis;
 
-import com.lcb.beans.Country;
-import com.lcb.mapper.CountryMapper;
+import com.lcb.beans.Student;
+import com.lcb.mapper.StudentMapper;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.List;
@@ -32,9 +32,9 @@ public class CountryMapperTest {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
             // 通过session对象来获取mapper
-            CountryMapper countryMapper = sqlSession.getMapper(CountryMapper.class);
-            List<Country> countryList = countryMapper.selectAll();
-            System.out.println(countryList);
+            StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
+            List<Student> studentList = studentMapper.selectAll();
+            System.out.println(studentList);
         } finally {
             // 记得关闭session
             sqlSession.close();

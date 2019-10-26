@@ -22,11 +22,15 @@ public class TestJDBC {
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
         try {
+            // 2、创建连接
             connection = DriverManager
                 .getConnection("jdbc:mysql://127.0.0.1:3306/test_db?useSSL=false&characterEncoding=utf-8", "root",
                                "li123456");
+            // 3、预编译SQL
             preparedStatement = connection.prepareStatement("select * from student where id = ?");
             preparedStatement.setInt(1, 1);
+
+            // 4、执行SQL
             resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 String columnName1 = resultSet.getMetaData().getColumnName(1);
