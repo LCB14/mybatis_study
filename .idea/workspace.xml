@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudentMapperTest">
+  <component name="RunManager">
     <configuration name="StudentMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lcb.mybatis.StudentMapperTest" />
       <module name="mybatis" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572066382980</updated>
       <workItem from="1572066384521" duration="7710000" />
-      <workItem from="1572090383237" duration="4556000" />
+      <workItem from="1572090383237" duration="6351000" />
     </task>
     <servers />
   </component>

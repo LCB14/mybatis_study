@@ -57,7 +57,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Country{" +
+        return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", sex='" + sex + '\'' +

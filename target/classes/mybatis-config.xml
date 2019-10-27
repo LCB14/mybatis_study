@@ -3,6 +3,11 @@
     PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!--  定义别名在映射器中使用，替代resultType中的全限定名  -->
+    <typeAliases>
+        <typeAlias type="com.lcb.beans.Student" alias="student"/>
+    </typeAliases>
+    <!-- 定义数据库信息 -->
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
@@ -14,6 +19,7 @@
             </dataSource>
         </environment>
     </environments>
+    <!-- 定义映射器  -->
     <mappers>
         <mapper resource="mapper/studentMapper.xml"/>
     </mappers>
