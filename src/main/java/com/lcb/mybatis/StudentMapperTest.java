@@ -9,8 +9,10 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.ibatis.session.defaults.DefaultSqlSession;
+import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
 
-public class CountryMapperTest {
+public class StudentMapperTest {
 
     private static SqlSessionFactory sqlSessionFactory;
 
@@ -31,8 +33,12 @@ public class CountryMapperTest {
         // 打开一个session对象
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
-            // 通过session对象来获取mapper
-            StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
+            /**
+             * 通过session对象来获取mapper
+             *
+             * @see DefaultSqlSession#getMapper(java.lang.Class)
+             */
+             StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
             List<Student> studentList = studentMapper.selectAll();
             System.out.println(studentList);
         } finally {
