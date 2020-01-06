@@ -41,8 +41,10 @@ public class Plugin implements InvocationHandler {
   }
 
   public static Object wrap(Object target, Interceptor interceptor) {
+    // key:拦截类必须实现的接口类型，value:拦截方法
     Map<Class<?>, Set<Method>> signatureMap = getSignatureMap(interceptor);
     Class<?> type = target.getClass();
+    // 获取拦截接口类型
     Class<?>[] interfaces = getAllInterfaces(type, signatureMap);
     if (interfaces.length > 0) {
       return Proxy.newProxyInstance(
@@ -94,6 +96,7 @@ public class Plugin implements InvocationHandler {
           interfaces.add(c);
         }
       }
+      // 获取当前接口所继承的父接口
       type = type.getSuperclass();
     }
     return interfaces.toArray(new Class<?>[interfaces.size()]);

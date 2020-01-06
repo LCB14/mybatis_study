@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/plugin/InterceptorChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/plugin/InterceptorChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/plugin/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/plugin/Plugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/ibatis/plugin/InterceptorChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/ibatis/plugin/InterceptorChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/ibatis/builder/XmlMapperBuilderTest$8.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,27 +42,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1Sj9xHwwxsMRGBbV5oX4BJSkTwX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StudentMapperTest">
     <configuration name="StudentMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lcb.mybatis.StudentMapperTest" />
-      <module name="mybatis" />
+      <module name="mybatis_study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lcb.mybatis.*" />
@@ -81,6 +88,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,6 +112,7 @@
       <updated>1572066382980</updated>
       <workItem from="1572066384521" duration="7710000" />
       <workItem from="1572090383237" duration="6351000" />
+      <workItem from="1578313375591" duration="3563000" />
     </task>
     <servers />
   </component>
@@ -111,5 +131,64 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="190" key="#StudentMapperTest" timestamp="1578313436113">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="516" y="190" key="#StudentMapperTest/0.0.1680.1050@0.0.1680.1050" timestamp="1578313436113" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1578322741607">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741607" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1578322741604">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741604" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1578322741603">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741603" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1578322741606">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741606" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1578322741610">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741610" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1578322741608">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741608" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1578322741607">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741607" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1578322741609">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578322741609" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lcb/mybatis/StudentMapperTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lcb/mybatis/StudentMapperTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
