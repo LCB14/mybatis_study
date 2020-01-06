@@ -94,7 +94,7 @@ public class DefaultSqlSessionFactory implements SqlSessionFactory {
             final Environment environment = configuration.getEnvironment();
             final TransactionFactory transactionFactory = getTransactionFactoryFromEnvironment(environment);
             tx = transactionFactory.newTransaction(environment.getDataSource(), level, autoCommit);
-            // Executor接口是拦截器拦截点之一
+            // Executor接口是拦截器拦截点之一，此处的Executor可能是一个代理！！
             final Executor executor = configuration.newExecutor(tx, execType);
             return new DefaultSqlSession(configuration, executor, autoCommit);
         } catch (Exception e) {
