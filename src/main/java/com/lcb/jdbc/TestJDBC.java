@@ -8,13 +8,22 @@ import java.sql.*;
  */
 public class TestJDBC {
 
+    /**
+     * <P>Applications no longer need to explicitly load JDBC drivers using <code>Class.forName()</code>. Existing programs
+     *  * which currently load JDBC drivers using <code>Class.forName()</code> will continue to work without
+     *  * modification.
+     *
+     * @see DriverManager
+     *
+     * 无须手动加载驱动了！！
+     */
     static {
-        try {
-            // 1、加载驱动
-            Class.forName(Driver.class.getName());
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            // 1、加载驱动
+//            Class.forName(Driver.class.getName());
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
     }
 
     public static void main(String[] args) throws Exception {
