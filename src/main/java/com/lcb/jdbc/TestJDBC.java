@@ -20,7 +20,7 @@ public class TestJDBC {
     static {
 //        try {
 //            // 1、加载驱动
-//            Class.forName(Driver.class.getName());
+//            Class.forName("com.mysql.cj.jdbc.Driver");
 //        } catch (ClassNotFoundException e) {
 //            e.printStackTrace();
 //        }
