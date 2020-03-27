@@ -27,7 +27,6 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.ibatis.session.defaults.DefaultSqlSession;
-import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
 
 public class StudentMapperTest {
 
@@ -37,7 +36,7 @@ public class StudentMapperTest {
         Reader reader = null;
         try {
             // 通过MyBatis自带的Resources工具来加载配置文件
-            reader = Resources.getResourceAsReader("mybatis-config.xml");
+            reader = Resources.getResourceAsReader("mybatis/mybatis-config.xml");
             // 通过SqlSessionFactoryBuilder()来构建sqlSessionFactory对象
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
         } catch (IOException e) {
