@@ -18,12 +18,12 @@ public class TestJDBC {
      * 无须手动加载驱动了！！
      */
     static {
-//        try {
-//            // 1、加载驱动
-//            Class.forName("com.mysql.cj.jdbc.Driver");
-//        } catch (ClassNotFoundException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            // 1、加载驱动
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) throws Exception {
