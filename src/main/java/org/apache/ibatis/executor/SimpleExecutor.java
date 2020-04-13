@@ -84,6 +84,7 @@ public class SimpleExecutor extends BaseExecutor {
         Statement stmt;
         Connection connection = getConnection(statementLog);
         stmt = handler.prepare(connection, transaction.getTimeout());
+        // 此处进行真正的赋值操作
         handler.parameterize(stmt);
         return stmt;
     }

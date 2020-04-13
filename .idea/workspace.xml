@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcb/mybatis/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcb/mybatis/StudentMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/ExecutionPlaceholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/ExecutionPlaceholder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/reflection/ParamNameResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/reflection/ParamNameResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/parameter/ParameterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/parameter/ParameterHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/RoutingStatementHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/scripting/defaults/DefaultParameterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/scripting/defaults/DefaultParameterHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +117,7 @@
       <workItem from="1583895157794" duration="2208000" />
       <workItem from="1583929977782" duration="22010000" />
       <workItem from="1585299552423" duration="57000" />
-      <workItem from="1586593863619" duration="32576000" />
+      <workItem from="1586593863619" duration="33908000" />
     </task>
     <servers />
   </component>
