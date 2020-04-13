@@ -1,17 +1,17 @@
 /**
- *    Copyright 2009-2020 the original author or authors.
- *
- *    Licensed under the Apache License, Version 2.0 (the "License");
- *    you may not use this file except in compliance with the License.
- *    You may obtain a copy of the License at
- *
- *       http://www.apache.org/licenses/LICENSE-2.0
- *
- *    Unless required by applicable law or agreed to in writing, software
- *    distributed under the License is distributed on an "AS IS" BASIS,
- *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *    See the License for the specific language governing permissions and
- *    limitations under the License.
+ * Copyright 2009-2020 the original author or authors.
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 package org.apache.ibatis.session;
 
@@ -119,7 +119,7 @@ public class Configuration {
     protected LocalCacheScope localCacheScope = LocalCacheScope.SESSION;
     protected JdbcType jdbcTypeForNull = JdbcType.OTHER;
     protected Set<String> lazyLoadTriggerMethods = new HashSet<>(
-        Arrays.asList("equals", "clone", "hashCode", "toString"));
+            Arrays.asList("equals", "clone", "hashCode", "toString"));
     protected Integer defaultStatementTimeout;
     protected Integer defaultFetchSize;
     protected ExecutorType defaultExecutorType = ExecutorType.SIMPLE;
@@ -150,10 +150,10 @@ public class Configuration {
     protected final LanguageDriverRegistry languageRegistry = new LanguageDriverRegistry();
 
     protected final Map<String, MappedStatement> mappedStatements = new StrictMap<MappedStatement>(
-        "Mapped Statements collection")
-        .conflictMessageProducer((savedValue, targetValue) ->
-                                     ". please check " + savedValue.getResource() + " and " + targetValue
-                                         .getResource());
+            "Mapped Statements collection")
+            .conflictMessageProducer((savedValue, targetValue) ->
+                    ". please check " + savedValue.getResource() + " and " + targetValue
+                            .getResource());
     protected final Map<String, Cache> caches = new StrictMap<>("Caches collection");
     protected final Map<String, ResultMap> resultMaps = new StrictMap<>("Result Maps collection");
     protected final Map<String, ParameterMap> parameterMaps = new StrictMap<>("Parameter Maps collection");
@@ -565,7 +565,7 @@ public class Configuration {
     public ParameterHandler newParameterHandler(MappedStatement mappedStatement, Object parameterObject,
                                                 BoundSql boundSql) {
         ParameterHandler parameterHandler = mappedStatement.getLang()
-            .createParameterHandler(mappedStatement, parameterObject, boundSql);
+                .createParameterHandler(mappedStatement, parameterObject, boundSql);
         parameterHandler = (ParameterHandler) interceptorChain.pluginAll(parameterHandler);
         return parameterHandler;
     }
@@ -574,7 +574,7 @@ public class Configuration {
                                                 ParameterHandler parameterHandler,
                                                 ResultHandler resultHandler, BoundSql boundSql) {
         ResultSetHandler resultSetHandler = new DefaultResultSetHandler(executor, mappedStatement, parameterHandler,
-                                                                        resultHandler, boundSql, rowBounds);
+                resultHandler, boundSql, rowBounds);
         resultSetHandler = (ResultSetHandler) interceptorChain.pluginAll(resultSetHandler);
         return resultSetHandler;
     }
@@ -583,7 +583,7 @@ public class Configuration {
                                                 Object parameterObject, RowBounds rowBounds,
                                                 ResultHandler resultHandler, BoundSql boundSql) {
         StatementHandler statementHandler = new RoutingStatementHandler(executor, mappedStatement, parameterObject,
-                                                                        rowBounds, resultHandler, boundSql);
+                rowBounds, resultHandler, boundSql);
         statementHandler = (StatementHandler) interceptorChain.pluginAll(statementHandler);
         return statementHandler;
     }
@@ -869,7 +869,7 @@ public class Configuration {
                     ResultMap entryResultMap = (ResultMap) value;
                     if (!entryResultMap.hasNestedResultMaps() && entryResultMap.getDiscriminator() != null) {
                         Collection<String> discriminatedResultMapNames = entryResultMap.getDiscriminator()
-                            .getDiscriminatorMap().values();
+                                .getDiscriminatorMap().values();
                         if (discriminatedResultMapNames.contains(rm.getId())) {
                             entryResultMap.forceNestedResultMaps();
                         }
@@ -939,8 +939,8 @@ public class Configuration {
         public V put(String key, V value) {
             if (containsKey(key)) {
                 throw new IllegalArgumentException(name + " already contains value for " + key
-                                                       + (conflictMessageProducer == null ? ""
-                    : conflictMessageProducer.apply(super.get(key), value)));
+                        + (conflictMessageProducer == null ? ""
+                        : conflictMessageProducer.apply(super.get(key), value)));
             }
             if (key.contains(".")) {
                 final String shortKey = getShortName(key);
@@ -961,7 +961,7 @@ public class Configuration {
             }
             if (value instanceof Ambiguity) {
                 throw new IllegalArgumentException(((Ambiguity) value).getSubject() + " is ambiguous in " + name
-                                                       + " (try using the full name including the namespace, or rename one of the entries)");
+                        + " (try using the full name including the namespace, or rename one of the entries)");
             }
             return value;
         }

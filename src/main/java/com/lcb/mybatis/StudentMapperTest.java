@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.Reader;
 import java.util.List;
 
+import org.apache.ibatis.binding.MapperProxy;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -46,7 +47,7 @@ public class StudentMapperTest {
             /**
              * 通过session对象来获取mapper
              *
-             * @see DefaultSqlSession#getMapper(java.lang.Class)
+             * @see MapperProxy#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])
              */
             StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
             List<Student> studentList = studentMapper.selectAll();
