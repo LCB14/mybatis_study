@@ -207,6 +207,7 @@ public class XPathParser {
   }
 
   public XNode evalNode(String expression) {
+    // document 是一个 xml 文件在 Java 中的表示形式。
     return evalNode(document, expression);
   }
 

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="" />
+    <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lcb/mybatis/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lcb/mybatis/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/builder/xml/XMLConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/builder/xml/XMLMapperBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/parsing/XPathParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/parsing/XPathParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/type/TypeAliasRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/type/TypeAliasRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/studentMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +119,7 @@
       <workItem from="1583895157794" duration="2208000" />
       <workItem from="1583929977782" duration="22010000" />
       <workItem from="1585299552423" duration="57000" />
-      <workItem from="1586593863619" duration="17736000" />
+      <workItem from="1586593863619" duration="21931000" />
     </task>
     <servers />
   </component>
@@ -152,29 +161,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="785" height="466" key="DebuggerActiveHint/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586670841587" />
-    <state width="1638" height="269" key="GridCell.Tab.0.bottom" timestamp="1586764264735">
+    <state width="1638" height="269" key="GridCell.Tab.0.bottom" timestamp="1586764686683">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.bottom/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790935" />
-    <state width="1638" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764264735" />
+    <state width="1638" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764686683" />
     <state width="2006" height="331" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783425" />
-    <state width="1638" height="269" key="GridCell.Tab.0.center" timestamp="1586764264734">
+    <state width="1638" height="269" key="GridCell.Tab.0.center" timestamp="1586764686681">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.center/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790932" />
-    <state width="1638" height="269" key="GridCell.Tab.0.center/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764264734" />
+    <state width="1638" height="269" key="GridCell.Tab.0.center/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764686681" />
     <state width="2006" height="331" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783423" />
-    <state width="1638" height="269" key="GridCell.Tab.0.left" timestamp="1586764264733">
+    <state width="1638" height="269" key="GridCell.Tab.0.left" timestamp="1586764686680">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.left/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790931" />
-    <state width="1638" height="269" key="GridCell.Tab.0.left/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764264733" />
+    <state width="1638" height="269" key="GridCell.Tab.0.left/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764686680" />
     <state width="2006" height="331" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783422" />
-    <state width="1638" height="269" key="GridCell.Tab.0.right" timestamp="1586764264735">
+    <state width="1638" height="269" key="GridCell.Tab.0.right" timestamp="1586764686682">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.right/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790934" />
-    <state width="1638" height="269" key="GridCell.Tab.0.right/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764264735" />
+    <state width="1638" height="269" key="GridCell.Tab.0.right/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586764686682" />
     <state width="2006" height="331" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783424" />
     <state width="1638" height="287" key="GridCell.Tab.1.bottom" timestamp="1586685098380">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -210,14 +219,20 @@
     </state>
     <state x="388" y="-797" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453771182" />
     <state x="469" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586665467121" />
-    <state x="520" y="-783" width="639" height="486" key="find.popup" timestamp="1585389855730">
-      <screen x="-184" y="-1080" width="2048" height="1080" />
+    <state x="578" y="289" width="683" height="486" key="find.popup" timestamp="1586768227705">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="520" y="-783" width="639" height="486" key="find.popup/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585389855730" />
-    <state x="505" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1585456161847">
-      <screen x="-184" y="-1080" width="2048" height="1080" />
+    <state x="578" y="289" width="683" height="486" key="find.popup/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586768227705" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1586767110789">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/0.23.1680.1027/-184.-1057.2048.1057@0.23.1680.1027" timestamp="1586767110789" />
+    <state x="565" y="234" width="670" height="658" key="search.everywhere.popup" timestamp="1586767394204">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585456161847" />
+    <state x="565" y="234" width="670" height="658" key="search.everywhere.popup/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586767394204" />
     <state x="565" y="234" width="670" height="658" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584011179612" />
   </component>
   <component name="XDebuggerManager">

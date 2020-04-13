@@ -1,17 +1,17 @@
 /**
- *    Copyright 2009-2020 the original author or authors.
- *
- *    Licensed under the Apache License, Version 2.0 (the "License");
- *    you may not use this file except in compliance with the License.
- *    You may obtain a copy of the License at
- *
- *       http://www.apache.org/licenses/LICENSE-2.0
- *
- *    Unless required by applicable law or agreed to in writing, software
- *    distributed under the License is distributed on an "AS IS" BASIS,
- *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *    See the License for the specific language governing permissions and
- *    limitations under the License.
+ * Copyright 2009-2020 the original author or authors.
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 package org.apache.ibatis.builder.xml;
 
@@ -91,10 +91,12 @@ public class XMLConfigBuilder extends BaseBuilder {
     }
 
     public Configuration parse() {
+        // 解析配置文件是非常耗费性能的、通过定义一个 parsed 变量来标识之前是否已经解析过了
         if (parsed) {
             throw new BuilderException("Each XMLConfigBuilder can only be used once.");
         }
         parsed = true;
+        // 解析 <configuration></configuration> 这个节点
         parseConfiguration(parser.evalNode("/configuration"));
         return configuration;
     }
@@ -106,16 +108,37 @@ public class XMLConfigBuilder extends BaseBuilder {
             Properties settings = settingsAsProperties(root.evalNode("settings"));
             loadCustomVfs(settings);
             loadCustomLogImpl(settings);
+            /**
+             * 解析别名
+             *
+             * <typeAliases>
+             *     <typeAlias type="com.lcb.beans.Student" alias="student"/>
+             * </typeAliases>
+             */
             typeAliasesElement(root.evalNode("typeAliases"));
+
             pluginElement(root.evalNode("plugins"));
+
+            // 用于自定义实例化对象的行为
             objectFactoryElement(root.evalNode("objectFactory"));
+
+
             objectWrapperFactoryElement(root.evalNode("objectWrapperFactory"));
             reflectorFactoryElement(root.evalNode("reflectorFactory"));
+
+
             settingsElement(settings);
+
             // read it after objectFactory and objectWrapperFactory issue #631
             environmentsElement(root.evalNode("environments"));
             databaseIdProviderElement(root.evalNode("databaseIdProvider"));
             typeHandlerElement(root.evalNode("typeHandlers"));
+
+            /**
+             * <mappers>
+             *     <mapper resource="mapper/studentMapper.xml"/>
+             * </mappers>
+             */
             mapperElement(root.evalNode("mappers"));
         } catch (Exception e) {
             throw new BuilderException("Error parsing SQL Mapper Configuration. Cause: " + e, e);
@@ -132,7 +155,7 @@ public class XMLConfigBuilder extends BaseBuilder {
         for (Object key : props.keySet()) {
             if (!metaConfig.hasSetter(String.valueOf(key))) {
                 throw new BuilderException(
-                    "The setting " + key + " is not known.  Make sure you spelled it correctly (case sensitive).");
+                        "The setting " + key + " is not known.  Make sure you spelled it correctly (case sensitive).");
             }
         }
         return props;
@@ -169,8 +192,15 @@ public class XMLConfigBuilder extends BaseBuilder {
                     try {
                         Class<?> clazz = Resources.classForName(type);
                         if (alias == null) {
+                            // 针对使用 @Alias 注解的形式来指定别名
                             typeAliasRegistry.registerAlias(clazz);
                         } else {
+                            /**
+                             * 下面针对这种形式构建的别名
+                             * <typeAliases>
+                             *         <typeAlias type="com.lcb.beans.Student" alias="student"/>
+                             * </typeAliases>
+                             */
                             typeAliasRegistry.registerAlias(alias, clazz);
                         }
                     } catch (ClassNotFoundException e) {
@@ -226,7 +256,7 @@ public class XMLConfigBuilder extends BaseBuilder {
             String url = context.getStringAttribute("url");
             if (resource != null && url != null) {
                 throw new BuilderException(
-                    "The properties element cannot specify both a URL and a resource based property file reference.  Please specify one or the other.");
+                        "The properties element cannot specify both a URL and a resource based property file reference.  Please specify one or the other.");
             }
             if (resource != null) {
                 defaults.putAll(Resources.getResourceAsProperties(resource));
@@ -244,15 +274,15 @@ public class XMLConfigBuilder extends BaseBuilder {
 
     private void settingsElement(Properties props) {
         configuration
-            .setAutoMappingBehavior(AutoMappingBehavior.valueOf(props.getProperty("autoMappingBehavior", "PARTIAL")));
+                .setAutoMappingBehavior(AutoMappingBehavior.valueOf(props.getProperty("autoMappingBehavior", "PARTIAL")));
         configuration.setAutoMappingUnknownColumnBehavior(
-            AutoMappingUnknownColumnBehavior.valueOf(props.getProperty("autoMappingUnknownColumnBehavior", "NONE")));
+                AutoMappingUnknownColumnBehavior.valueOf(props.getProperty("autoMappingUnknownColumnBehavior", "NONE")));
         configuration.setCacheEnabled(booleanValueOf(props.getProperty("cacheEnabled"), true));
         configuration.setProxyFactory((ProxyFactory) createInstance(props.getProperty("proxyFactory")));
         configuration.setLazyLoadingEnabled(booleanValueOf(props.getProperty("lazyLoadingEnabled"), false));
         configuration.setAggressiveLazyLoading(booleanValueOf(props.getProperty("aggressiveLazyLoading"), false));
         configuration
-            .setMultipleResultSetsEnabled(booleanValueOf(props.getProperty("multipleResultSetsEnabled"), true));
+                .setMultipleResultSetsEnabled(booleanValueOf(props.getProperty("multipleResultSetsEnabled"), true));
         configuration.setUseColumnLabel(booleanValueOf(props.getProperty("useColumnLabel"), true));
         configuration.setUseGeneratedKeys(booleanValueOf(props.getProperty("useGeneratedKeys"), false));
         configuration.setDefaultExecutorType(ExecutorType.valueOf(props.getProperty("defaultExecutorType", "SIMPLE")));
@@ -263,14 +293,14 @@ public class XMLConfigBuilder extends BaseBuilder {
         configuration.setLocalCacheScope(LocalCacheScope.valueOf(props.getProperty("localCacheScope", "SESSION")));
         configuration.setJdbcTypeForNull(JdbcType.valueOf(props.getProperty("jdbcTypeForNull", "OTHER")));
         configuration.setLazyLoadTriggerMethods(
-            stringSetValueOf(props.getProperty("lazyLoadTriggerMethods"), "equals,clone,hashCode,toString"));
+                stringSetValueOf(props.getProperty("lazyLoadTriggerMethods"), "equals,clone,hashCode,toString"));
         configuration.setSafeResultHandlerEnabled(booleanValueOf(props.getProperty("safeResultHandlerEnabled"), true));
         configuration.setDefaultScriptingLanguage(resolveClass(props.getProperty("defaultScriptingLanguage")));
         configuration.setDefaultEnumTypeHandler(resolveClass(props.getProperty("defaultEnumTypeHandler")));
         configuration.setCallSettersOnNulls(booleanValueOf(props.getProperty("callSettersOnNulls"), false));
         configuration.setUseActualParamName(booleanValueOf(props.getProperty("useActualParamName"), true));
         configuration
-            .setReturnInstanceForEmptyRow(booleanValueOf(props.getProperty("returnInstanceForEmptyRow"), false));
+                .setReturnInstanceForEmptyRow(booleanValueOf(props.getProperty("returnInstanceForEmptyRow"), false));
         configuration.setLogPrefix(props.getProperty("logPrefix"));
         configuration.setConfigurationFactory(resolveClass(props.getProperty("configurationFactory")));
     }
@@ -287,8 +317,8 @@ public class XMLConfigBuilder extends BaseBuilder {
                     DataSourceFactory dsFactory = dataSourceElement(child.evalNode("dataSource"));
                     DataSource dataSource = dsFactory.getDataSource();
                     Environment.Builder environmentBuilder = new Environment.Builder(id)
-                        .transactionFactory(txFactory)
-                        .dataSource(dataSource);
+                            .transactionFactory(txFactory)
+                            .dataSource(dataSource);
                     configuration.setEnvironment(environmentBuilder.build());
                 }
             }
@@ -377,20 +407,20 @@ public class XMLConfigBuilder extends BaseBuilder {
                         ErrorContext.instance().resource(resource);
                         InputStream inputStream = Resources.getResourceAsStream(resource);
                         XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, resource,
-                                                                             configuration.getSqlFragments());
+                                configuration.getSqlFragments());
                         mapperParser.parse();
                     } else if (resource == null && url != null && mapperClass == null) {
                         ErrorContext.instance().resource(url);
                         InputStream inputStream = Resources.getUrlAsStream(url);
                         XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, url,
-                                                                             configuration.getSqlFragments());
+                                configuration.getSqlFragments());
                         mapperParser.parse();
                     } else if (resource == null && url == null && mapperClass != null) {
                         Class<?> mapperInterface = Resources.classForName(mapperClass);
                         configuration.addMapper(mapperInterface);
                     } else {
                         throw new BuilderException(
-                            "A mapper element may only specify a url, resource or class, but not more than one.");
+                                "A mapper element may only specify a url, resource or class, but not more than one.");
                     }
                 }
             }
