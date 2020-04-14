@@ -149,7 +149,7 @@ public abstract class BaseExecutor implements Executor {
         List<E> list;
         try {
             queryStack++;
-            // 这就是传说中的一级缓存
+            // 这就是传说中的一级缓存处理逻辑
             list = resultHandler == null ? (List<E>) localCache.getObject(key) : null;
             if (list != null) {
                 handleLocallyCachedOutputParameters(ms, key, parameter, boundSql);

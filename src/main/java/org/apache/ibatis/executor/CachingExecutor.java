@@ -92,7 +92,7 @@ public class CachingExecutor implements Executor {
     @Override
     public <E> List<E> query(MappedStatement ms, Object parameterObject, RowBounds rowBounds, ResultHandler resultHandler, CacheKey key, BoundSql boundSql)
             throws SQLException {
-        // 此处获取的是二级缓存
+        // 此处就是传说中的二级缓存处理逻辑
         Cache cache = ms.getCache();
         if (cache != null) {
             flushCacheIfRequired(ms);
