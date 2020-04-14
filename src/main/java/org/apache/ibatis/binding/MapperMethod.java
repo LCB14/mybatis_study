@@ -84,6 +84,12 @@ public class MapperMethod {
                 } else if (method.returnsCursor()) {
                     result = executeForCursor(sqlSession, args);
                 } else {
+                    /**
+                     * 这个方法逻辑就是说明为何使用Java基本类型时需要使用@Param注解的原因
+                     * @see MapperProxy#cachedMapperMethod(java.lang.reflect.Method)
+                     * @see MapperMethod#MapperMethod(java.lang.Class, java.lang.reflect.Method, org.apache.ibatis.session.Configuration)
+                     * @see ParamNameResolver#ParamNameResolver(org.apache.ibatis.session.Configuration, java.lang.reflect.Method)
+                     */
                     Object param = method.convertArgsToSqlCommandParam(args);
                     result = sqlSession.selectOne(command.getName(), param);
                     if (method.returnsOptional()
