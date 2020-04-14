@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/decorators/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/decorators/LruCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/impl/PerpetualCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/impl/PerpetualCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/TransactionalCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/TransactionalCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/decorators/TransactionalCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/cache/decorators/TransactionalCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1583895157794" duration="2208000" />
       <workItem from="1583929977782" duration="22010000" />
       <workItem from="1585299552423" duration="57000" />
-      <workItem from="1586593863619" duration="47326000" />
+      <workItem from="1586593863619" duration="49429000" />
     </task>
     <servers />
   </component>
@@ -137,10 +135,11 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="-875" key="#Notifications" timestamp="1585311520017">
-      <screen x="-184" y="-1080" width="2048" height="1080" />
+    <state x="512" y="199" key="#Notifications" timestamp="1586868306383">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="-875" key="#Notifications/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585311520017" />
+    <state x="512" y="199" key="#Notifications/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586868306383" />
     <state x="516" y="190" key="#StudentMapperTest" timestamp="1578313436113">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
