@@ -141,6 +141,7 @@ public class MapperMethod {
     private <E> Object executeForMany(SqlSession sqlSession, Object[] args) {
         List<E> result;
         Object param = method.convertArgsToSqlCommandParam(args);
+        // 处理mybatis自带分页的逻辑（因为是基于内存的所以很少有人会用mybatis自带分页技术）
         if (method.hasRowBounds()) {
             RowBounds rowBounds = method.extractRowBounds(args);
             result = sqlSession.selectList(command.getName(), param, rowBounds);
@@ -150,6 +151,7 @@ public class MapperMethod {
              */
             result = sqlSession.selectList(command.getName(), param);
         }
+
         // issue #510 Collections & arrays support
         if (!method.getReturnType().isAssignableFrom(result.getClass())) {
             if (method.getReturnType().isArray()) {

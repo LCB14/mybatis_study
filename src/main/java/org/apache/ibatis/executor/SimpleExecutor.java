@@ -22,6 +22,8 @@ import java.util.Collections;
 import java.util.List;
 
 import org.apache.ibatis.cursor.Cursor;
+import org.apache.ibatis.executor.statement.PreparedStatementHandler;
+import org.apache.ibatis.executor.statement.RoutingStatementHandler;
 import org.apache.ibatis.executor.statement.StatementHandler;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.mapping.BoundSql;
@@ -60,6 +62,9 @@ public class SimpleExecutor extends BaseExecutor {
             Configuration configuration = ms.getConfiguration();
             StatementHandler handler = configuration.newStatementHandler(wrapper, ms, parameter, rowBounds, resultHandler, boundSql);
             stmt = prepareStatement(handler, ms.getStatementLog());
+            /**
+             * @see PreparedStatementHandler#query(java.sql.Statement, org.apache.ibatis.session.ResultHandler)
+             */
             return handler.query(stmt, resultHandler);
         } finally {
             closeStatement(stmt);
@@ -83,9 +88,18 @@ public class SimpleExecutor extends BaseExecutor {
     private Statement prepareStatement(StatementHandler handler, Log statementLog) throws SQLException {
         Statement stmt;
         Connection connection = getConnection(statementLog);
+        /**
+         * @see RoutingStatementHandler#prepare(java.sql.Connection, java.lang.Integer)
+         */
         stmt = handler.prepare(connection, transaction.getTimeout());
-        // 此处进行真正的赋值操作
+
+        /**
+         * 此处进行真正的赋值操作
+         *
+         * @see PreparedStatementHandler#parameterize(java.sql.Statement)
+         */
         handler.parameterize(stmt);
+
         return stmt;
     }
 

@@ -4,10 +4,8 @@
     <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/type/TypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/type/TypeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/apache/ibatis/submitted/typehandler/StringTrimmingTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/apache/ibatis/submitted/typehandler/StringTrimmingTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/mapping/MappedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/mapping/MappedStatement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1583895157794" duration="2208000" />
       <workItem from="1583929977782" duration="22010000" />
       <workItem from="1585299552423" duration="57000" />
-      <workItem from="1586593863619" duration="36298000" />
+      <workItem from="1586593863619" duration="38517000" />
     </task>
     <servers />
   </component>
@@ -150,77 +148,77 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="516" y="190" key="#TestJDBC/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1583841141451" />
-    <state x="482" y="372" width="956" height="579" key="#xdebugger.evaluate" timestamp="1586787415954">
+    <state x="482" y="372" width="956" height="579" key="#xdebugger.evaluate" timestamp="1586849385044">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="482" y="372" width="956" height="579" key="#xdebugger.evaluate/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787415954" />
+    <state x="482" y="372" width="956" height="579" key="#xdebugger.evaluate/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849385044" />
     <state x="559" y="301" width="741" height="579" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1584007802642" />
-    <state width="785" height="466" key="DebuggerActiveHint" timestamp="1586787288141">
+    <state width="785" height="466" key="DebuggerActiveHint" timestamp="1586849071132">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="785" height="466" key="DebuggerActiveHint/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787288141" />
+    <state width="785" height="466" key="DebuggerActiveHint/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849071132" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1586787653407">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787653407" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1586787431671">
+    <state width="1638" height="409" key="GridCell.Tab.0.bottom" timestamp="1586849364530">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.bottom/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790935" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431671" />
+    <state width="1638" height="409" key="GridCell.Tab.0.bottom/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849364530" />
     <state width="2006" height="331" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783425" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1586787431669">
+    <state width="1638" height="409" key="GridCell.Tab.0.center" timestamp="1586849364529">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.center/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790932" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431669" />
+    <state width="1638" height="409" key="GridCell.Tab.0.center/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849364529" />
     <state width="2006" height="331" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783423" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1586787431668">
+    <state width="1638" height="409" key="GridCell.Tab.0.left" timestamp="1586849364528">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.left/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790931" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431668" />
+    <state width="1638" height="409" key="GridCell.Tab.0.left/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849364528" />
     <state width="2006" height="331" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783422" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1586787431670">
+    <state width="1638" height="409" key="GridCell.Tab.0.right" timestamp="1586849364529">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.0.right/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790934" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431670" />
+    <state width="1638" height="409" key="GridCell.Tab.0.right/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849364529" />
     <state width="2006" height="331" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783424" />
-    <state width="1638" height="287" key="GridCell.Tab.1.bottom" timestamp="1586787431675">
+    <state width="1638" height="409" key="GridCell.Tab.1.bottom" timestamp="1586849365004">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.1.bottom/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790941" />
-    <state width="1638" height="287" key="GridCell.Tab.1.bottom/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431675" />
+    <state width="1638" height="409" key="GridCell.Tab.1.bottom/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849365004" />
     <state width="2006" height="331" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783429" />
-    <state width="1638" height="287" key="GridCell.Tab.1.center" timestamp="1586787431673">
+    <state width="1638" height="409" key="GridCell.Tab.1.center" timestamp="1586849365003">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.1.center/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790938" />
-    <state width="1638" height="287" key="GridCell.Tab.1.center/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431673" />
+    <state width="1638" height="409" key="GridCell.Tab.1.center/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849365003" />
     <state width="2006" height="331" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783427" />
-    <state width="1638" height="287" key="GridCell.Tab.1.left" timestamp="1586787431673">
+    <state width="1638" height="409" key="GridCell.Tab.1.left" timestamp="1586849365002">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.1.left/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790937" />
-    <state width="1638" height="287" key="GridCell.Tab.1.left/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431673" />
+    <state width="1638" height="409" key="GridCell.Tab.1.left/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849365002" />
     <state width="2006" height="331" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783426" />
-    <state width="1638" height="287" key="GridCell.Tab.1.right" timestamp="1586787431674">
+    <state width="1638" height="409" key="GridCell.Tab.1.right" timestamp="1586849365003">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="2006" height="331" key="GridCell.Tab.1.right/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453790939" />
-    <state width="1638" height="287" key="GridCell.Tab.1.right/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586787431674" />
+    <state width="1638" height="409" key="GridCell.Tab.1.right/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849365003" />
     <state width="2006" height="331" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585533783428" />
     <state x="629" y="243" key="RollbackChangesDialog" timestamp="1584010119890">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="629" y="243" key="RollbackChangesDialog/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1583934383833" />
     <state x="629" y="243" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584010119890" />
-    <state x="469" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586783724077">
+    <state x="469" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586849357379">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="388" y="-797" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1585453771182" />
-    <state x="469" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586783724077" />
+    <state x="469" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1586849357379" />
     <state x="578" y="289" width="683" height="486" key="find.popup" timestamp="1586768227705">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -244,11 +242,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java</url>
           <line>97</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/datasource/unpooled/UnpooledDataSource.java</url>
@@ -337,23 +330,33 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
-          <line>232</line>
+          <line>234</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/binding/MapperMethod.java</url>
-          <line>242</line>
+          <line>244</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java</url>
           <line>402</line>
           <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/statement/PreparedStatementHandler.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/SimpleExecutor.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

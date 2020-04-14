@@ -56,10 +56,10 @@ public class RoutingStatementHandler implements StatementHandler {
 
     @Override
     public Statement prepare(Connection connection, Integer transactionTimeout) throws SQLException {
-      /**
-       * @see PreparedStatementHandler#parameterize(java.sql.Statement)
-       */
-      return delegate.prepare(connection, transactionTimeout);
+        /**
+         * @see BaseStatementHandler#prepare(java.sql.Connection, java.lang.Integer)
+         */
+        return delegate.prepare(connection, transactionTimeout);
     }
 
     @Override
