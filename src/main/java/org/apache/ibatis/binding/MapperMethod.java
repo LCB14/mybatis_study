@@ -37,6 +37,7 @@ import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.ResultHandler;
 import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.defaults.DefaultSqlSession;
 
 /**
  * @author Clinton Begin
@@ -144,6 +145,9 @@ public class MapperMethod {
             RowBounds rowBounds = method.extractRowBounds(args);
             result = sqlSession.selectList(command.getName(), param, rowBounds);
         } else {
+            /**
+             * @see DefaultSqlSession#selectList(java.lang.String, java.lang.Object)
+             */
             result = sqlSession.selectList(command.getName(), param);
         }
         // issue #510 Collections & arrays support

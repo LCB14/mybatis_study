@@ -26,6 +26,7 @@ import org.apache.ibatis.cursor.Cursor;
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator;
 import org.apache.ibatis.executor.keygen.KeyGenerator;
+import org.apache.ibatis.executor.resultset.DefaultResultSetHandler;
 import org.apache.ibatis.mapping.BoundSql;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.ResultSetType;
@@ -63,6 +64,9 @@ public class PreparedStatementHandler extends BaseStatementHandler {
     public <E> List<E> query(Statement statement, ResultHandler resultHandler) throws SQLException {
         PreparedStatement ps = (PreparedStatement) statement;
         ps.execute();
+        /**
+         * @see DefaultResultSetHandler#handleResultSets(java.sql.Statement)
+         */
         return resultSetHandler.handleResultSets(ps);
     }
 
