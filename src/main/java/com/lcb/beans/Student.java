@@ -15,11 +15,13 @@
  */
 package com.lcb.beans;
 
+import java.io.Serializable;
+
 /**
  * @author changbao.li Date: 2019-10-02 Time: 11:03
  * @version $
  */
-public class Student {
+public class Student implements Serializable {
     private Integer id;
 
     private String name;
