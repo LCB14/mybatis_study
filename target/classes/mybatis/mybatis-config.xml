@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
-    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!--设置mybatis日志打印-->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
     <!--  定义别名在映射器中使用，替代resultType中的全限定名  -->
     <typeAliases>
         <typeAlias type="com.lcb.beans.Student" alias="student"/>
@@ -13,7 +18,8 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://127.0.0.1:3306/test_db?useSSL=false&amp;characterEncoding=utf-8"/>
+                <property name="url"
+                          value="jdbc:mysql://127.0.0.1:3306/test_db?useSSL=false&amp;characterEncoding=utf-8"/>
                 <property name="username" value="root"/>
                 <property name="password" value="li123456"/>
             </dataSource>
