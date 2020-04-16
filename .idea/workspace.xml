@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1afc2381-b91c-41fa-ba94-ee414389b47a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BaseExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BatchExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/BatchExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/CachingExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/ReuseExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/ReuseExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/loader/ResultLoaderMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/ibatis/executor/loader/ResultLoaderMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +122,7 @@
       <workItem from="1585299552423" duration="57000" />
       <workItem from="1586593863619" duration="63555000" />
       <workItem from="1586997465488" duration="4051000" />
-      <workItem from="1587005523018" duration="1492000" />
+      <workItem from="1587005523018" duration="3189000" />
     </task>
     <servers />
   </component>

@@ -54,11 +54,26 @@ public abstract class BaseExecutor implements Executor {
     protected Transaction transaction;
     protected Executor wrapper;
 
+    /**
+     * 延迟加载队列
+     */
     protected ConcurrentLinkedQueue<DeferredLoad> deferredLoads;
+
+    /**
+     * 一级缓存，用于缓存该Executor对象查询结果集映射得到的结果对象
+     */
     protected PerpetualCache localCache;
+
+    /**
+     * 一级缓存，用于缓存输出类型参数
+     */
     protected PerpetualCache localOutputParameterCache;
+
     protected Configuration configuration;
 
+    /**
+     * 用来记录嵌套查询的层数
+     */
     protected int queryStack;
     private boolean closed;
 
