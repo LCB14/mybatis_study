@@ -33,6 +33,8 @@ import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.transaction.Transaction;
 
 /**
+ * 装饰器的作用，为Executor添加了二级缓存的功能
+ *
  * @author Clinton Begin
  * @author Eduardo Macarron
  */
@@ -107,10 +109,10 @@ public class CachingExecutor implements Executor {
                 return list;
             }
         }
-      /**
-       * @see BaseExecutor#query(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql)
-       */
-      return delegate.query(ms, parameterObject, rowBounds, resultHandler, key, boundSql);
+        /**
+         * @see BaseExecutor#query(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.cache.CacheKey, org.apache.ibatis.mapping.BoundSql)
+         */
+        return delegate.query(ms, parameterObject, rowBounds, resultHandler, key, boundSql);
     }
 
     @Override

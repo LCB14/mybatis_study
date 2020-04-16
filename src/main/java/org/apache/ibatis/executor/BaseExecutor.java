@@ -293,10 +293,11 @@ public abstract class BaseExecutor implements Executor {
 
     /**
      * Apply a transaction timeout.
+     *
      * @param statement a current statement
      * @throws SQLException if a database access error occurs, this method is called on a closed <code>Statement</code>
-     * @since 3.4.0
      * @see StatementUtil#applyTransactionTimeout(Statement, Integer, Integer)
+     * @since 3.4.0
      */
     protected void applyTransactionTimeout(Statement statement) throws SQLException {
         StatementUtil.applyTransactionTimeout(statement, statement.getQueryTimeout(), transaction.getTimeout());
@@ -323,10 +324,10 @@ public abstract class BaseExecutor implements Executor {
         List<E> list;
         localCache.putObject(key, EXECUTION_PLACEHOLDER);
         try {
-          /**
-           * @see SimpleExecutor#doQuery(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.mapping.BoundSql)
-           */
-          list = doQuery(ms, parameter, rowBounds, resultHandler, boundSql);
+            /**
+             * @see SimpleExecutor#doQuery(org.apache.ibatis.mapping.MappedStatement, java.lang.Object, org.apache.ibatis.session.RowBounds, org.apache.ibatis.session.ResultHandler, org.apache.ibatis.mapping.BoundSql)
+             */
+            list = doQuery(ms, parameter, rowBounds, resultHandler, boundSql);
         } finally {
             localCache.removeObject(key);
         }
